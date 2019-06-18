@@ -1,0 +1,19 @@
+{
+  "name": "actajs",
+  "version": "0.1.5",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app.js",
+    "build": "tsc"
+  },
+  "author": "Batista Harahap",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
