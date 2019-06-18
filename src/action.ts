@@ -2,17 +2,17 @@ import IActaBase from './iactabase'
 
 class ActaAction implements IActaBase {
 
-  private _action: Number
+  private _action: string
 
-  constructor(action: Number) {
+  constructor(action: string) {
     this._action = action
   }
 
-  public getAction(): Number {
+  public getAction(): string {
     return this._action
   }
 
-  public setAction(action: Number) {
+  public setAction(action: string) {
     this._action = action
   }
 

@@ -2,19 +2,19 @@ import IActaBase from './iactabase'
 
 class ActaObject implements IActaBase {
 
-  private _type: Number
+  private _type: string
   private _id: string
 
-  constructor(type: Number, id: string) {
+  constructor(type: string, id: string) {
     this._type = type
     this._id = id
   }
 
-  public getType(): Number {
+  public getType(): string {
     return this._type
   }
 
-  public setType(type: Number) {
+  public setType(type: string) {
     this._type = type
   }
 

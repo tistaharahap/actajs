@@ -55,7 +55,7 @@ class Acta implements IActaBase {
       actor: this.actor.toJson(),
       action: this.action.getAction(),
       object: this.obj.toJson(),
-      meta: this.meta.toJson(),
+      meta: this.meta.getData(),
     }
   }
 
